@@ -6,7 +6,7 @@ melt=str(mellow)
 print("")
 
 message= ""
-response={}
+response=[]
 
 print("")
 
@@ -15,6 +15,8 @@ while message != "quit":
     message=input("Type something here. Watch out for quit. ")
     print("")
 else:
-    print(f"you quit but entered the following, {response}")
+    print(f"you quit but entered the following, {",".join(response)}")
+
+
     
     

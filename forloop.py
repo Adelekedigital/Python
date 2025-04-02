@@ -1,9 +1,9 @@
 
 
 listed=[1,2,3,4,5]
-i= input("type number")
+text= 7
 
-for i in listed:
+for text in listed:
     print("it's there")
 else:
     print("not there")
